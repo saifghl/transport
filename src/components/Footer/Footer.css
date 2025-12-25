@@ -1,0 +1,115 @@
+.footer {
+    background-color: #fff;
+    padding: 4rem 2rem 2rem;
+    font-family: 'Inter', sans-serif;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Logo Section Specifics */
+.logo-section {
+    flex: 1.5;
+    /* Give logo section a bit more space if needed, or keep equal */
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.logo-text {
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+/* Headings */
+.footer-section h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #000;
+    font-family: serif;
+    /* Matches "Quick Links", "Legal", "Contact Us" style in image */
+}
+
+/* Lists */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.footer-section a:hover {
+    color: #000;
+}
+
+/* Contact Items */
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.contact-icon {
+    width: 20px;
+    /* Specific size for SVGs */
+    height: 20px;
+    stroke: #4a90e2;
+    /* Outline color matching the design suggestion */
+    flex-shrink: 0;
+}
+
+.contact-item .icon {
+    font-size: 1.1rem;
+    /* Adjust emoji size */
+    line-height: 1;
+    color: #4a90e2;
+    /* Blue tint for icons as per image style suggestion */
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    color: #000;
+    font-size: 0.95rem;
+    font-weight: 500;
+}

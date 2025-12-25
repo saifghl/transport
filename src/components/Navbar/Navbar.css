@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Added shadow */
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* Increased gap for more space */
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+  color: #000;
+  margin-right: 2rem;
+  /* Ensure space between logo and links */
+}
+
+.navbar-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.logo-text {
+  font-family: serif;
+  text-transform: uppercase;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: #000;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.4rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effects */
+  white-space: nowrap;
+}
+
+/* Outline Button: Default (White with Border), Hover (Black Background) */
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #000;
+  /* Made border sharper */
+  color: #000;
+}
+
+.btn-outline:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Primary Button: Default (Black Background), Hover (White with Border) */
+.btn-primary {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #000;
+}
